@@ -8,6 +8,15 @@ const fecha = new Date()
  
 export const PrimerComponente = () => {
   return (
-    <h1>{ JSON.stringify(fecha) }</h1>
+    <>  
+        <h1>Variables en JSX</h1>
+        <h4>Variables tipo String</h4> <p>{string}</p>
+        <h4>Variables tipo number</h4> <p>{number}</p>
+        <h4>Variables tipo array</h4> <p>{array}</p>
+        <h4>Variables tipo boolean</h4> <p>{boolean}</p>
+        <h4>Variables tipo funcion</h4> <p>{funcion()}</p>
+        <h4>Variables tipo objeto</h4> <p>{ JSON.stringify(objeto) }</p>
+        <h4>Variables tipo fecha</h4> <p>{ JSON.stringify(fecha) }</p>
+    </>
   )
 }
