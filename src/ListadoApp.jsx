@@ -2,8 +2,8 @@ import { useState } from "react"
 
 const Item = ({nombre, visto}) => {
     return(
-        <li>{nombre} 
-        {visto ? '✅' : '⛔'}
+        <li className="rojito">{nombre} 
+            {visto ? '✅' : '⛔'}
         </li>
     )
 }
